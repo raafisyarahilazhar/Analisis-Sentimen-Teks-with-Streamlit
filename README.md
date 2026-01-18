@@ -9,13 +9,13 @@ Project ini membangun **model analisis sentimen 3 kelas** (NEGATIF/NETRAL/POSITI
 ---
 
 ## Struktur Folder
-├─ .venv/ # virtual environment (opsional, jangan di-push)
-├─ app.py # aplikasi Streamlit (deployment)
-├─ train_and_save.py # training + generate artifacts
-├─ requirements.txt # daftar dependency
-├─ NPM20221310099_logreg_model.joblib # artifact: model Logistic Regression
-├─ NPM20221310099_tfidf_vectorizer.joblib # artifact: TF-IDF vectorizer
-└─ NPM20221310099_norm_dict.json # artifact: kamus normalisasi slang→baku
+venv/ # virtual environment (opsional, jangan di-push)
+pp.py # aplikasi Streamlit (deployment)
+rain_and_save.py # training + generate artifacts
+requirements.txt # daftar dependency
+NPM20221310099_logreg_model.joblib # artifact: model Logistic Regression
+PM20221310099_tfidf_vectorizer.joblib # artifact: TF-IDF vectorizer
+NPM20221310099_norm_dict.json # artifact: kamus normalisasi slang→baku
 ---
 ## Prasyarat
 - Python 3.10+ (disarankan)

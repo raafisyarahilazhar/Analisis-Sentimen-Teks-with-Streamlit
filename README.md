@@ -4,7 +4,7 @@
 Project ini membangun **model analisis sentimen 3 kelas** (NEGATIF/NETRAL/POSITIF) menggunakan pipeline:
 **Preprocessing → TF-IDF → Logistic Regression → Prediksi + Probabilitas**, lalu dideploy sebagai aplikasi **Streamlit**.
 
-> Judul use-case mengarah ke “Debat Capres 2024”, tetapi model bisa dipakai untuk **banyak jenis teks** (komentar, review, opini, berita, dsb). Akurasi terbaik diperoleh bila dataset training sejenis dengan data target (bahasa & domain).
+> Judul kasus nya mengarah ke “Debat Capres 2024”, tetapi model bisa dipakai untuk **banyak jenis teks** (komentar, review, opini, berita, dsb). Akurasi terbaik diperoleh bila dataset training sejenis dengan data target (bahasa & domain).
 
 ---
 
